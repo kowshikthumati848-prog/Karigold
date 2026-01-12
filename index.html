@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,94 +10,102 @@
     <style>
         .gold-gradient { background: linear-gradient(135deg, #D4AF37 0%, #F9E29B 50%, #B8860B 100%); }
         .text-gold { color: #B8860B; }
-        html { scroll-behavior: smooth; }
-        
-        /* Gold Design Background for Hero */
-        .hero-bg {
-            background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), 
-                              url('https://www.transparenttextures.com/patterns/gold-dust.png'),
-                              linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
-            background-size: auto, auto, cover;
-        }
     </style>
 </head>
 <body class="bg-stone-50 text-gray-800 font-sans">
 
-    <nav class="p-6 flex justify-between items-center bg-white shadow-md sticky top-0 z-50">
-        <div class="text-2xl font-bold tracking-tighter text-gold italic underline decoration-stone-200">KARIGOLD</div>
+    <nav class="p-6 flex justify-between items-center bg-white shadow-sm sticky top-0 z-50">
+        <div class="text-2xl font-bold tracking-tighter text-gold">KARIGOLD</div>
         <div class="hidden md:flex space-x-8 font-medium">
             <a href="#about" class="hover:text-gold">About</a>
             <a href="#how-it-works" class="hover:text-gold">How it Works</a>
-            <a href="#custom" class="hover:text-gold">Custom Design</a>
+            <a href="#products" class="hover:text-gold">Collections</a>
         </div>
-        <a href="https://wa.me/919849390497" class="bg-green-600 text-white px-5 py-2 rounded-full text-sm font-bold flex items-center shadow-lg hover:bg-green-700">
-            <i class="fab fa-whatsapp mr-2"></i> WhatsApp
-        </a>
+        <a href="https://wa.me/yournumber" class="bg-stone-900 text-white px-5 py-2 rounded-full text-sm">WhatsApp Us</a>
     </nav>
 
-    <div class="bg-stone-900 text-white py-2 text-center text-sm tracking-widest font-bold">
-        ✨ Today's 22K Gold Rate: <span class="text-gold font-bold">₹13,593/gm</span>
-    </div>
-
-    <header class="hero-bg relative py-24 flex items-center justify-center text-center px-4 border-b border-stone-200">
-        <div class="max-w-4xl bg-white/40 p-10 rounded-[50px] backdrop-blur-sm border border-white/50 shadow-2xl">
-            <h1 class="text-4xl md:text-6xl font-serif mb-6 leading-tight text-stone-900">✨ Karigold – Pure Gold.<br><span class="text-gold italic underline decoration-stone-300">Honest Making.</span></h1>
-            
-            <div class="flex justify-center mb-8">
-                <img src="gold-design.jpg" alt="Jewellery Design" class="rounded-2xl shadow-2xl border-4 border-white max-w-xs md:max-w-sm transform hover:scale-105 transition duration-500">
-            </div>
-
-            <p class="text-lg md:text-xl text-stone-700 font-medium mb-10 max-w-2xl mx-auto italic">Buy or design your jewellery with your own gold or ours — with transparent pricing and minimal making charges.</p>
-            
-            <div class="flex flex-col md:flex-row justify-center gap-6">
-                <a href="#custom" class="gold-gradient text-white px-10 py-4 rounded-full font-bold shadow-xl hover:brightness-110 transition text-center uppercase tracking-wider">Design with My Gold</a>
-                <a href="https://wa.me/919849390497?text=I%20want%20to%20buy%20fresh%20gold%20jewellery" class="bg-white border-2 border-gold text-gold px-10 py-4 rounded-full font-bold hover:bg-gold hover:text-white transition text-center uppercase tracking-wider shadow-lg">Buy Fresh Gold</a>
+    <header class="relative h-[80vh] flex items-center justify-center text-center px-4 bg-stone-100">
+        <div class="max-w-4xl">
+            <h1 class="text-4xl md:text-6xl font-serif mb-6">✨ Karigold – Pure Gold.<br><span class="text-gold">Honest Making.</span></h1>
+            <p class="text-lg md:text-xl text-gray-600 mb-10">Buy or design your jewellery with your own gold or ours — with transparent pricing and minimal making charges.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <button class="gold-gradient text-white px-8 py-4 rounded-lg font-bold shadow-lg hover:opacity-90 transition">Design with My Gold</button>
+                <button class="border-2 border-stone-800 px-8 py-4 rounded-lg font-bold hover:bg-stone-800 hover:text-white transition">Buy Fresh Gold Jewellery</button>
             </div>
         </div>
     </header>
-    <section class="bg-stone-50 py-12 px-4">
-        <div class="max-w-md mx-auto bg-white p-8 rounded-3xl shadow-2xl border-t-4 border-gold">
-            <h3 class="text-center font-bold mb-6 text-stone-800 italic text-xl">💰 Transparent Price Estimator</h3>
-            <div class="space-y-5">
+
+    <section id="about" class="py-20 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-serif text-center mb-16 underline decoration-gold">What Makes Karigold Different</h2>
+        <div class="grid md:grid-cols-3 gap-10">
+            <div class="p-8 bg-white rounded-2xl shadow-sm border-t-4 border-gold">
+                <i class="fas fa-scales-balanced text-3xl text-gold mb-4"></i>
+                <h3 class="font-bold text-xl mb-2">Transparent Pricing</h3>
+                <p class="text-gray-600">Gold price + weight + making charge = Final price. No hidden costs.</p>
+            </div>
+            <div class="p-8 bg-white rounded-2xl shadow-sm border-t-4 border-gold">
+                <i class="fas fa-hand-holding-heart text-3xl text-gold mb-4"></i>
+                <h3 class="font-bold text-xl mb-2">Use Your Own Gold</h3>
+                <p class="text-gray-600">Bring your gold; we craft it with full weight transparency and integrity.</p>
+            </div>
+            <div class="p-8 bg-white rounded-2xl shadow-sm border-t-4 border-gold">
+                <i class="fas fa-certificate text-3xl text-gold mb-4"></i>
+                <h3 class="font-bold text-xl mb-2">Certified Purity</h3>
+                <p class="text-gray-600">All fresh gold jewellery is BIS Hallmark certified (22K) for your peace of mind.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="py-20 bg-stone-900 text-white px-6">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl font-serif text-center mb-16">How It Works</h2>
+            <div class="grid md:grid-cols-2 gap-16">
                 <div>
-                    <label class="text-xs text-stone-500 uppercase font-bold tracking-widest">Gold Weight (Grams)</label>
-                    <input type="number" id="weight" placeholder="Enter weight (e.g. 10)" class="w-full p-4 border-2 border-stone-100 rounded-xl mt-1 outline-none focus:border-gold bg-stone-50 transition-all font-bold text-lg" oninput="calculatePrice()">
+                    <h3 class="text-gold text-xl font-bold mb-6 italic underline">Option 1: Design with Your Gold</h3>
+                    <ul class="space-y-4 text-stone-300">
+                        <li><span class="text-gold font-bold mr-2">1.</span> Bring your gold securely</li>
+                        <li><span class="text-gold font-bold mr-2">2.</span> Choose or customize design</li>
+                        <li><span class="text-gold font-bold mr-2">3.</span> Pay only making charges</li>
+                        <li><span class="text-gold font-bold mr-2">4.</span> Get your jewellery delivered</li>
+                    </ul>
                 </div>
-                <div class="pt-6 border-t border-dashed border-stone-200">
-                    <div class="flex justify-between text-sm mb-2">
-                        <span class="text-stone-500">Pure Gold Cost:</span>
-                        <span id="gold-cost-display" class="font-bold">₹0</span>
-                    </div>
-                    <div class="flex justify-between text-sm text-stone-400 mb-4">
-                        <span>Making Charges:</span>
-                        <span>+ ₹400 / gm</span>
-                    </div>
-                    <div class="flex justify-between font-bold text-2xl mt-2 text-stone-900 bg-stone-50 p-4 rounded-2xl border border-stone-100">
-                        <span class="text-stone-600">Total:</span>
-                        <span id="total-price" class="text-gold">₹0</span>
-                    </div>
-                    <p class="text-[10px] text-stone-400 mt-4 text-center italic uppercase tracking-tighter">*Final price based on live market & design.</p>
+                <div>
+                    <h3 class="text-gold text-xl font-bold mb-6 italic underline">Option 2: Buy Fresh Jewellery</h3>
+                    <ul class="space-y-4 text-stone-300">
+                        <li><span class="text-gold font-bold mr-2">1.</span> Select a design from our catalog</li>
+                        <li><span class="text-gold font-bold mr-2">2.</span> Gold weight at live market rates</li>
+                        <li><span class="text-gold font-bold mr-2">3.</span> Minimal making charges added</li>
+                        <li><span class="text-gold font-bold mr-2">4.</span> Delivered with certificate</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <script>
-        function calculatePrice() {
-            const rate = 13593; 
-            const making = 400; 
-            const weightInput = document.getElementById('weight').value;
-            const weight = parseFloat(weightInput);
-            
-            if (weight > 0) {
-                const goldCost = weight * rate;
-                const total = weight * (rate + making);
-                document.getElementById('gold-cost-display').innerText = "₹" + goldCost.toLocaleString('en-IN');
-                document.getElementById('total-price').innerText = "₹" + total.toLocaleString('en-IN');
-            } else {
-                document.getElementById('gold-cost-display').innerText = "₹0";
-                document.getElementById('total-price').innerText = "₹0";
-            }
-        }
-    </
-  
+    <section id="products" class="py-20 px-6 max-w-6xl mx-auto text-center">
+        <h2 class="text-3xl font-serif mb-4">Our Collections</h2>
+        <p class="mb-12 text-gray-500 italic">Craftsmanship for every occasion</p>
+        <div class="flex flex-wrap justify-center gap-4">
+            <span class="px-6 py-2 border border-stone-300 rounded-full italic">Chains & Necklaces</span>
+            <span class="px-6 py-2 border border-stone-300 rounded-full italic">Bangles & Kadas</span>
+            <span class="px-6 py-2 border border-stone-300 rounded-full italic">Bridal Sets</span>
+            <span class="px-6 py-2 border border-stone-300 rounded-full italic">Engagement Rings</span>
+            <span class="px-6 py-2 border border-stone-300 rounded-full italic">Custom Orders</span>
+        </div>
+    </section>
+
+    <footer class="py-20 bg-white border-t border-stone-200 text-center">
+        <h2 class="text-3xl font-serif mb-6">Ready to design with trust?</h2>
+        <p class="text-gray-600 mb-8 italic text-lg">"Your gold. Your design. Our responsibility."</p>
+        <div class="flex flex-wrap justify-center gap-8 mb-12">
+            <a href="#" class="text-stone-800 flex items-center"><i class="fas fa-phone mr-2 text-gold"></i> Call Us</a>
+            <a href="#" class="text-stone-800 flex items-center"><i class="fab fa-whatsapp mr-2 text-gold"></i> WhatsApp</a>
+            <a href="#" class="text-stone-800 flex items-center"><i class="fas fa-location-dot mr-2 text-gold"></i> Visit Workshop</a>
+        </div>
+        <div class="text-stone-400 text-sm">
+            © 2026 Karigold — Crafted with Honesty.
+        </div>
+    </footer>
+
+</body>
+</html>
